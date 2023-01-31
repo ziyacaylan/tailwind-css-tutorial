@@ -2,19 +2,25 @@
 
 ---
 
+## Demo : https://gega-project-ziyac.netlify.app/
+
+---
+
 ## Project Skeleton
 
-|----README.md  
-├── public  
-│ ├── css  
-│ │ └── styles.css  
-│ ├── images  
-│ └── lindex.html  
-├── .gitignore  
-├── input.css  
-├── package-lock.json  
-├── package.json  
+```
+|----README.md
+├── public
+│ ├── css
+│ │ └── styles.css
+│ ├── images
+│ └── lindex.html
+├── .gitignore
+├── input.css
+├── package-lock.json
+├── package.json
 └── tailwind.config.js
+```
 
 ## Author
 
@@ -34,3 +40,5 @@
 - [Youtube Channel: @arinsoftware]
 
 ---
+
+![Screenshot](./public/images/Screenshot.jpg)
