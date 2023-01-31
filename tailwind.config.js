@@ -4,6 +4,9 @@ module.exports = {
   theme: {
     container: {
       center: true,
+      lg: "1140px",
+      xl: "1140px",
+      "2xl": "1140px",
     },
     extend: {
       fontFamily: {
@@ -11,11 +14,10 @@ module.exports = {
         open: ["Open Sans", "sans-serif"],
       },
       colors: {
-        "light-red": "#ef4444",
-        "dark-orange": "#ea580c",
-        "light-yellow": "#fde68a",
-        "light-green": "#65a30d",
-        "dark-cyan": "#0891b2",
+        "gega-red": "#BC1A45",
+        "gega-melon": "#FFD369",
+        "gega-grey": "#DDDDDD",
+        "gega-white": "#F7F7F7",
       },
     },
   },
