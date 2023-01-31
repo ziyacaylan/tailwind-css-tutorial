@@ -23,9 +23,16 @@
 
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
-  <body class="font-open">
+  <body class="font-open dark">
+    <!-- Dark&Light Toggle -->
+    <div class="absolute top-1 left-5 cursor-pointer text-lg">
+      <i class="fa-solid fa-sun text-white" id="sun"></i>
+      <i class="fa-solid fa-moon hidden text-black" id="moon"></i>
+    </div>
     <!-- Header Section -->
-    <header class="bg-black py-6 lg:py-12 text-gega-grey uppercase">
+    <header
+      class="dark:bg-black bg-white py-6 lg:py-12 dark:text-gega-grey text-black uppercase"
+    >
       <!-- Header Container -->
       <div
         class="container flex items-center justify-between space-x-8 lg:space-x-16"
@@ -174,7 +181,9 @@
       </div>
     </section>
     <!-- Movies Section -->
-    <section class="py-24 bg-black">
+    <section
+      class="py-24 dark:bg-black bg-white dark:text-gega-grey text-black"
+    >
       <!-- Movies Content -->
       <div
         class="container flex flex-col lg:flex-row lg:space-x-16 space-y-8 lg:space-y-0"
@@ -665,7 +674,9 @@
       </div>
     </section>
     <!-- Post Section -->
-    <section class="py-24 bg-black text-gega-grey">
+    <section
+      class="py-24 dark:bg-black dark:text-gega-grey bg-white text-black"
+    >
       <!-- Container -->
       <div class="container px-10 lg:px-0">
         <!-- Title -->
@@ -825,7 +836,7 @@
     </section>
 
     <!-- Footer Section -->
-    <footer class="bg-black text-gega-grey">
+    <footer class="dark:bg-black dark:text-gega-grey bg-white text-black">
       <!-- Footer Container -->
       <div class="container flex flex-col md:flex-row px-10 lg:px-0 pb-8">
         <!-- Left -->
@@ -877,5 +888,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
